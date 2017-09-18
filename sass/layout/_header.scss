@@ -1,7 +1,6 @@
 nav {
-    .navbar-brand {
-        margin-top: 20px;
-    }
+    background-color: #000;
+    opacity: 0.3;
     .navbar-nav {
         .dropdown.open {
             a {
@@ -27,7 +26,7 @@ nav {
             }
         }
         li {
-            padding-top: 45px;
+            padding-top: 25px;
             a {
                 color: #fff;
                 font-size: 15px;
