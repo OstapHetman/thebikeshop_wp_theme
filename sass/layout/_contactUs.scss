@@ -1,0 +1,35 @@
+#contactUs {
+    min-height: 630px;
+    background: url('../img/contactUsBg.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    h1,
+    p {
+        display: block;
+        text-align: center;
+    }
+    form {
+        .input-group:first-child {
+            display: flex;
+            input:nth-child(2) {
+                margin-left: 30px;
+            }
+        }
+        .input-group:nth-child(2),
+        .input-group:nth-child(3) {
+            width: 100%;
+        }
+        textarea,
+        input,
+        button {
+            border-radius: 7px;
+        }
+        textarea {
+            min-width: 450px;
+        }
+        button {
+            width: 100%;
+            padding: 10px 0px 10px 0px;
+        }
+    }
+}

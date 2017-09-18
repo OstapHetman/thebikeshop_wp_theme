@@ -39,7 +39,14 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../navbar/">BICYCLES</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BICYCLES</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">FIXED / SINGLE SPEED</a></li>
+                            <li><a href="#">CITY BIKES</a></li>
+                            <li><a href="#">PREMIUM SERIES</a></li>
+                        </ul>
+                    </li>
                     <li><a href="../navbar-static-top/">PARTS</a></li>
                     <li><a href="../navbar-static-top/">ACCESSORIES</a></li>
                     <li><a href="../navbar-static-top/">EXTRAS</a></li>
@@ -53,40 +60,43 @@
 
     <!-- Start Carousel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img class="first-slide" src="img/showcase.jpg" alt="First slide">
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Example headline.</h1>
-                        <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                        <h1>HANDMADE BICYCLE</h1>
+                        <p>You create the journey, we supply the parts. </p>
+                        <p><a class="btn btn-lg" href="#" role="button">SHOP BIKES</a></p>
+                        <p>
+                            <a class="btn btn-lg" href="#" role="button"><img src="img/scrollIcon.png" alt=""></a>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="item">
-                <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+                <img class="second-slide" src="img/showcase2.jpeg" alt="Second slide">
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        <h1>HANDMADE BICYCLE</h1>
+                        <p>You create the journey, we supply the parts. </p>
+                        <p><a class="btn btn-lg" href="#" role="button">SHOP BIKES</a></p>
+                        <p>
+                            <a class="btn btn-lg" href="#" role="button"><img src="img/scrollIcon.png" alt=""></a>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="item">
-                <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+                <img class="third-slide" src="img/showcase3.jpg" alt="Third slide">
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>One more for good measure.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                        <h1>HANDMADE BICYCLE</h1>
+                        <p>You create the journey, we supply the parts. </p>
+                        <p><a class="btn btn-lg" href="#" role="button">SHOP BIKES</a></p>
+                        <p>
+                            <a class="btn btn-lg" href="#" role="button"><img src="img/scrollIcon.png" alt=""></a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -101,6 +111,61 @@
         </a>
     </div>
     <!-- END Carousel -->
+
+    <!-- START Categories -->
+    <section id="categories">
+        <div class="container">
+            <div class="row">
+                <h1>CATEGORIES</h1>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END Categories -->
+
+    <!-- START POPULAR Bikes -->
+    <section id="popularBikes">
+        <div class="container">
+            <div class="row">
+                <h1>POPULAR BIKES</h1>
+            </div>
+        </div>
+    </section>
+    <!-- END POPULAR Bikes -->
+
+    <!-- START ContactUs -->
+    <section id="contactUs">
+        <div class="container">
+            <div class="row">
+                <h1>CONTACT US</h1>
+                <p>Please contact us for all inquiries and purchase options.</p>
+                <div class="col-md-5">
+                    <form action="POST">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" placeholder="Surname" aria-describedby="basic-addon2">
+                        </div>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="example@gmail.com" aria-describedby="basic-addon2">
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <button class="btn-default">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END ContactUs -->
 
     <!-- End Coding Here -->
 

@@ -395,6 +395,77 @@ body {
   line-height: 1.6em;
   font-size: 1em; }
 
+nav .navbar-brand {
+  margin-top: 20px; }
+
+nav .navbar-nav .dropdown.open a {
+  background-color: #fcff19; }
+  nav .navbar-nav .dropdown.open a:hover {
+    color: #fff; }
+
+nav .navbar-nav .dropdown-menu {
+  background-color: #fcff19;
+  min-width: 215px;
+  border-radius: 9%;
+  top: 86%;
+  z-index: -1;
+  right: -108.4px; }
+  nav .navbar-nav .dropdown-menu li {
+    padding: 0; }
+  nav .navbar-nav .dropdown-menu a {
+    color: #000;
+    font-weight: 600; }
+
+nav .navbar-nav li {
+  padding-top: 45px; }
+  nav .navbar-nav li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 9%; }
+    nav .navbar-nav li a:hover {
+      background-color: #fcff19;
+      color: #000; }
+
+.carousel-caption {
+  top: 30vh; }
+
+#categories {
+  min-height: 630px;
+  background: url("../img/categoriesBg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+#popularBikes {
+  min-height: 630px;
+  background-color: #fff; }
+
+#contactUs {
+  min-height: 630px;
+  background: url("../img/contactUsBg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover; }
+  #contactUs h1,
+  #contactUs p {
+    display: block;
+    text-align: center; }
+  #contactUs form .input-group:first-child {
+    display: flex; }
+    #contactUs form .input-group:first-child input:nth-child(2) {
+      margin-left: 30px; }
+  #contactUs form .input-group:nth-child(2),
+  #contactUs form .input-group:nth-child(3) {
+    width: 100%; }
+  #contactUs form textarea,
+  #contactUs form input,
+  #contactUs form button {
+    border-radius: 7px; }
+  #contactUs form textarea {
+    min-width: 450px; }
+  #contactUs form button {
+    width: 100%;
+    padding: 10px 0px 10px 0px; }
+
 /*================ 
     Media Query 
    =============*/

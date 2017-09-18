@@ -1,0 +1,47 @@
+nav {
+    .navbar-brand {
+        margin-top: 20px;
+    }
+    .navbar-nav {
+        .dropdown.open {
+            a {
+                background-color: $hoverColor;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+        .dropdown-menu {
+            background-color: $hoverColor;
+            min-width: 215px;
+            border-radius: 9%;
+            top: 86%;
+            z-index: -1;
+            right: -108.4px;
+            li {
+                padding: 0;
+            }
+            a {
+                color: #000;
+                font-weight: 600;
+            }
+        }
+        li {
+            padding-top: 45px;
+            a {
+                color: #fff;
+                font-size: 15px;
+                font-weight: 600;
+                border-radius: 9%;
+                &:hover {
+                    background-color: $hoverColor;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+.carousel-caption {
+    top: 30vh;
+}
